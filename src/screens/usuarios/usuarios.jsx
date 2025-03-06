@@ -5,7 +5,7 @@ import { styles } from './Usuarios.styles';
 import { agregarUsuario, eliminarUsuario, actualizarUsuario, obtenerUsuarios } from '../servicios/Database';
 import { useSQLiteContext } from 'expo-sqlite';
 
-const image = require('../../../assets/base.png'); 
+const image = require('../../../assets/fondo.png'); 
 
 export const Usuarios = () => {
   const db = useSQLiteContext();
